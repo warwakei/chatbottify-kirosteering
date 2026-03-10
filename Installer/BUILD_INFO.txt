@@ -1,0 +1,15 @@
+Chatbottify Installer Build Info
+========================================
+
+Build Date: 2026-03-10 12:11:09
+Python Version: 3.13.12
+Executable: D:\AProjects\1\Installer\dist\ChatbottifyInstaller.exe
+
+Quick Start:
+1. Run ChatbottifyInstaller.exe
+2. Follow the installation wizard
+3. Steering rule will be installed to:
+   C:\Users\[YourUsername]\.kiro\steering\chatbottify.md
+
+For more info visit:
+https://github.com/warwakei/chatbottify-kirosteering
