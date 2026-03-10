@@ -18,17 +18,30 @@ Set of steering rules that change how Claude behaves in Kiro:
 
 **Extension 2** — dependencies, tests & docs (version checks, test patterns, documentation)
 
-## Setup
+## Installation
 
-1. Copy `.md` files to `.kiro/steering/` in your project
+### Option 1: Installer (Windows)
+1. Download `ChatbottifyInstaller.exe` from [Releases](https://github.com/warwakei/chatbottify-kirosteering/releases)
+2. Run the installer
+3. Follow the prompts (it'll auto-detect your Kiro path)
+4. Choose which extensions to install
+5. Reload Kiro IDE
+
+### Option 2: Manual
+1. Clone or download this repo
+2. Copy `.md` files from root to `C:\Users\[YourUsername]\.kiro\steering\`
+3. Create the folder if it doesn't exist
+4. Reload Kiro IDE
+
+### Option 3: Per-Project
+1. Copy `.md` files to `.kiro/steering/` in your project folder
 2. Reload Kiro IDE
-3. Done, rules apply automatically
 
 ## Files
 
-- `chatbottify.md`
-- `chatbottify0-ext1.md`
-- `chatbottify0-ext2.md`
+- `chatbottify.md` — main rule
+- `chatbottify0-ext1.md` — code quality extension
+- `chatbottify0-ext2.md` — deps/tests/docs extension
 
 ## Author
 
