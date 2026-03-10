@@ -1,6 +1,8 @@
 # Chatbottify
 
-Steering rules for Kiro IDE that make Claude AI more ChatGPT-like. Modern, fast, and straight to the point.
+Steering rules for [Kiro IDE](https://kiro.dev) that make Claude AI more ChatGPT-like. Modern, fast, and straight to the point.
+
+> **Huge respect to the Kiro team** — they're giving away Claude Haiku 4.5 with 400+ free requests per month, no account limits, unlimited signups. That's insane. Go grab it at [kiro.dev](https://kiro.dev)
 
 ## What's this?
 
