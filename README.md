@@ -1,50 +1,39 @@
 # Chatbottify
 
-Steering rules для Kiro IDE, которые делают Claude AI более "ChatGPT-like" — современнее, быстрее и эффективнее.
+Steering rules for Kiro IDE that make Claude AI more ChatGPT-like. Modern, fast, and straight to the point.
 
-## Что это?
+## What's this?
 
-Chatbottify — набор steering rules для Kiro IDE, которые изменяют поведение Claude AI:
-- Более современный стиль общения (как ChatGPT)
-- Меньше воды, больше фактов
-- Быстрые и эффективные ответы
-- Фокус на качество кода, тесты и документацию
+Set of steering rules that change how Claude behaves in Kiro:
+- ChatGPT-style communication
+- Less fluff, more facts
+- Quick and efficient answers
+- Focus on code quality, tests, and docs
 
-## Компоненты
+## Rules
 
-### Chatbottify (v0.0.1)
-Основной steering rule. Делает общение более ChatGPT-подобным, убирает лишние объяснения.
+**Chatbottify** — main rule, makes Claude talk like ChatGPT
 
-### Chatbottify0 Extension1 (v0.0.1)
-Расширение с фокусом на **качество и эффективность кода**:
-- Типизация (TypeScript, type hints)
-- Минимум комментариев
-- Оптимизация и рефакторинг
-- Помощь с багами
+**Extension 1** — code quality & efficiency (typing, clean code, bug fixes)
 
-### Chatbottify0 Extension2 (v0.0.1)
-Расширение с фокусом на **зависимости, тесты и документацию**:
-- Проверка совместимости версий
-- Понятные и быстрые тесты
-- Краткая и полезная документация
-- Semantic versioning
+**Extension 2** — dependencies, tests & docs (version checks, test patterns, documentation)
 
-## Установка
+## Setup
 
-1. Скопируй файлы `.md` в `.kiro/steering/` твоего проекта
-2. Перезагрузи Kiro IDE
-3. Steering rules автоматически применятся
+1. Copy `.md` files to `.kiro/steering/` in your project
+2. Reload Kiro IDE
+3. Done, rules apply automatically
 
-## Файлы
+## Files
 
-- `chatbottify.md` — основной rule
-- `chatbottify0-ext1.md` — расширение для качества кода
-- `chatbottify0-ext2.md` — расширение для зависимостей и тестов
+- `chatbottify.md`
+- `chatbottify0-ext1.md`
+- `chatbottify0-ext2.md`
 
-## Автор
+## Author
 
 [warwakei](https://github.com/warwakei)
 
-## Лицензия
+## License
 
 MIT
